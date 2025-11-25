@@ -22,6 +22,12 @@ jobs:
     - name: Install dependencies
       run: npm install
 
+    - name: Run ESLint (SAST)
+      run: |
+        npm install eslint --save-dev
+        npx eslint src/ --ext .js --ignore-pattern "node_modules/" || echo "ESLint completed with warnings"
+      continue-on-error: true
+
     - name: Run npm audit (SCA)
       run: npm audit --audit-level=moderate
       continue-on-error: true
