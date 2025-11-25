@@ -142,8 +142,9 @@ GitHub Actions
 <img width="1239" height="611" alt="{C6BAB760-85F3-4EB3-AD5B-3E4FE04EC59E}" src="https://github.com/user-attachments/assets/76b85f2d-9a4d-41a8-a3f3-5ba8646d6954" />
 
 Отчет eslint
-<img width="677" height="122" alt="image" src="https://github.com/user-attachments/assets/6096ef50-293a-4745-b115-37fa14c7e353" />
 <br>
+<img width="677" height="122" alt="image" src="https://github.com/user-attachments/assets/6096ef50-293a-4745-b115-37fa14c7e353" />
+
 
 Отчеты npm audit
 <br>
