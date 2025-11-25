@@ -139,7 +139,7 @@ curl -X POST http://localhost:3000/api/posts \
 
 GitHub Actions
 <br>
-<img width="2507" height="1194" alt="image" src="https://github.com/user-attachments/assets/c6da5cd9-a6cb-4c97-8cc8-086fbc944eb9" />
+<img width="1239" height="611" alt="{C6BAB760-85F3-4EB3-AD5B-3E4FE04EC59E}" src="https://github.com/user-attachments/assets/76b85f2d-9a4d-41a8-a3f3-5ba8646d6954" />
 
 Отчеты npm audit
 <br>
