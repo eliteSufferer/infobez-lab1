@@ -7,7 +7,7 @@ const { authenticateToken, SECRET_KEY } = require('./middleware');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.express.json();
+app.use(express.json());
 
 function escapeHtml(text) {
   const map = {
