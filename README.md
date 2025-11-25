@@ -137,6 +137,15 @@ curl -X POST http://localhost:3000/api/posts \
 
 ## Скриншоты CI/CD
 
+GitHub Actions
+<img width="2507" height="1194" alt="image" src="https://github.com/user-attachments/assets/c6da5cd9-a6cb-4c97-8cc8-086fbc944eb9" />
+
+Отчеты npm audit
+<img width="579" height="160" alt="image" src="https://github.com/user-attachments/assets/29f3cedc-dd49-43e4-9631-2e84696b7a3e" />
+<img width="330" height="473" alt="image" src="https://github.com/user-attachments/assets/6996a639-2f9a-4cd5-9f92-04efbe08cf37" />
+
+Отчет snyk
+<img width="896" height="544" alt="image" src="https://github.com/user-attachments/assets/780e3dc2-81d8-458c-9a24-2c197327b664" />
 
 ## Технологии
 
