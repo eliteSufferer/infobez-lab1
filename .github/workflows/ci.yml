@@ -22,10 +22,11 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run ESLint (SAST)
-      run: |
-        npm install eslint --save-dev
-        npx eslint src/ --ext .js --ignore-pattern "node_modules/" || echo "ESLint completed with warnings"
+    - name: Install ESLint and security plugin
+      run: npm install --save-dev eslint eslint-plugin-security
+
+    - name: Run ESLint (SAST - Static Application Security Testing)
+      run: npx eslint src/ --ext .js
       continue-on-error: true
 
     - name: Run npm audit (SCA)

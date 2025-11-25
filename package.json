@@ -6,9 +6,14 @@
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "test": "echo \"Tests passed\" && exit 0"
+    "test": "echo \"Tests passed\" && exit 0",
+    "lint": "eslint src/ --ext .js --ignore-pattern 'node_modules/'"
   },
-  "keywords": ["security", "rest-api", "jwt"],
+  "keywords": [
+    "security",
+    "rest-api",
+    "jwt"
+  ],
   "author": "elitesufferer",
   "license": "MIT",
   "type": "commonjs",
@@ -19,6 +24,8 @@
     "sqlite3": "^5.1.7"
   },
   "devDependencies": {
+    "eslint": "^9.39.1",
+    "eslint-plugin-security": "^3.0.1",
     "nodemon": "^3.1.11"
   }
 }
