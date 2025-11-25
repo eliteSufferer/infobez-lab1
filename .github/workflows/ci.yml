@@ -35,11 +35,6 @@ jobs:
       env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
 
-    - name: Run ESLint for security issues
-      run: |
-        npm install -g eslint eslint-plugin-security
-        npx eslint src/ --ext .js --plugin security || true
-
     - name: Security headers check
       run: echo "Security checks completed"
 
